@@ -1,0 +1,27 @@
+title: start-page
+
+# Build settings
+#markdown: kramdown
+
+#background: random-remote
+#background: static-color
+background: day-night
+
+background_static_color: lightgreen
+
+widgets:
+  - navigatron
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - README.md
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

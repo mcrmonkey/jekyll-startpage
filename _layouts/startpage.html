@@ -1,0 +1,10 @@
+{% include header.html %}
+
+{% include bg/{{site.background}}_bg.html %}
+
+{% for thing in site.widgets %}
+  {% include widgets/{{thing}}.html %}
+{% endfor %}
+
+
+{% include footer.html %}

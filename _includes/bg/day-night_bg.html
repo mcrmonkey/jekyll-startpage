@@ -1,0 +1,20 @@
+<style>
+body {
+    background-color: {{site.background_static_color}}
+}
+</style>
+
+<script>
+  var currentTime = new Date().getHours();
+   if (8 <= currentTime && currentTime < 20) {
+     if (document.body) {
+       document.body.background = "images/bg/day-night/day.jpg";
+       document.body.className = " day";
+     }
+   } else {
+     if (document.body) {
+       document.body.background = "images/bg/day-night/night.jpg";
+       document.body.className = " night";
+     }
+   }
+</script>
